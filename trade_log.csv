@@ -1,0 +1,82 @@
+timestamp,level,action,detail
+2026-09-03T09:08:01.163117,INFO,cycle_start,2026-09-03T09:08:01.162771
+2026-09-03T09:17:27.517751,INFO,cycle_start,2026-09-03T09:17:27.517157
+2026-09-03T09:17:28.824405,ERROR,cli_error,"alpaca data option chain --symbol AAPL -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:17:28.824561,SKIP,AAPL,no option chain data returned
+2026-09-03T09:17:28.832014,ERROR,cli_error,"alpaca data option chain --symbol MSFT -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:17:28.832177,SKIP,MSFT,no option chain data returned
+2026-09-03T09:17:28.839725,ERROR,cli_error,"alpaca data option chain --symbol SPY -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:17:28.839922,SKIP,SPY,no option chain data returned
+2026-09-03T09:17:28.848193,ERROR,cli_error,"alpaca data option chain --symbol QQQ -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:17:28.848319,SKIP,QQQ,no option chain data returned
+2026-09-03T09:17:28.856581,ERROR,cli_error,"alpaca data option chain --symbol AMZN -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:17:28.856716,SKIP,AMZN,no option chain data returned
+2026-09-03T09:17:28.856784,INFO,cycle_end,2026-09-03T09:17:28.856756
+2026-09-03T09:32:17.226234,INFO,cycle_start,2026-09-03T09:32:17.225680
+2026-09-03T09:32:18.734095,ERROR,cli_error,"alpaca data option chain --symbol AAPL -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:32:18.734414,SKIP,AAPL,no option chain data returned
+2026-09-03T09:32:18.747105,ERROR,cli_error,"alpaca data option chain --symbol MSFT -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:32:18.747280,SKIP,MSFT,no option chain data returned
+2026-09-03T09:32:18.759598,ERROR,cli_error,"alpaca data option chain --symbol SPY -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:32:18.759776,SKIP,SPY,no option chain data returned
+2026-09-03T09:32:18.768567,ERROR,cli_error,"alpaca data option chain --symbol QQQ -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:32:18.768704,SKIP,QQQ,no option chain data returned
+2026-09-03T09:32:18.777672,ERROR,cli_error,"alpaca data option chain --symbol AMZN -> {'code': 0, 'error': 'unknown flag: --symbol', 'hint': '', 'status': 0}"
+2026-09-03T09:32:18.777791,SKIP,AMZN,no option chain data returned
+2026-09-03T09:32:18.777867,INFO,cycle_end,2026-09-03T09:32:18.777837
+2026-09-03T09:36:41.304417+00:00,INFO,cycle_start,2026-09-03T09:36:41.304118+00:00
+2026-09-03T09:39:33.357609+00:00,INFO,cycle_start,2026-09-03T09:39:33.357378+00:00
+2026-09-03T09:39:35.623367+00:00,SKIP,AAPL,no qualifying put strike found
+2026-09-03T09:39:36.470793+00:00,SKIP,MSFT,no qualifying put strike found
+2026-09-03T09:39:37.287585+00:00,SKIP,SPY,no qualifying put strike found
+2026-09-03T09:39:38.077186+00:00,SKIP,QQQ,no qualifying put strike found
+2026-09-03T09:39:38.898922+00:00,SKIP,AMZN,no qualifying put strike found
+2026-09-03T09:39:38.899082+00:00,INFO,cycle_end,2026-09-03T09:39:38.899042+00:00
+2026-09-03T09:44:26.390419+00:00,INFO,cycle_start,2026-09-03T09:44:26.390175+00:00
+2026-09-03T09:44:28.407374+00:00,SKIP,AAPL,could not fetch spot price
+2026-09-03T09:44:29.022079+00:00,SKIP,MSFT,could not fetch spot price
+2026-09-03T09:44:29.849928+00:00,SKIP,SPY,could not fetch spot price
+2026-09-03T09:44:30.469038+00:00,SKIP,QQQ,could not fetch spot price
+2026-09-03T09:44:31.112549+00:00,SKIP,AMZN,could not fetch spot price
+2026-09-03T09:44:31.112927+00:00,INFO,cycle_end,2026-09-03T09:44:31.112830+00:00
+2026-09-03T09:46:37.798109+00:00,INFO,cycle_start,2026-09-03T09:46:37.797907+00:00
+2026-09-03T09:46:40.437579+00:00,SKIP,AAPL,position collateral 31000.0 exceeds per-position cap
+2026-09-03T09:46:41.764968+00:00,SKIP,MSFT,position collateral 47500.0 exceeds per-position cap
+2026-09-03T09:46:43.215417+00:00,SKIP,SPY,position collateral 74400.0 exceeds per-position cap
+2026-09-03T09:46:44.699419+00:00,SKIP,QQQ,position collateral 67900.0 exceeds per-position cap
+2026-09-03T09:46:46.002854+00:00,SKIP,AMZN,position collateral 24000.0 exceeds per-position cap
+2026-09-03T09:46:46.003217+00:00,INFO,cycle_end,2026-09-03T09:46:46.003091+00:00
+2026-09-03T09:47:33.772174+00:00,INFO,cycle_start,2026-09-03T09:47:33.771926+00:00
+2026-09-03T09:47:36.353059+00:00,SKIP,AAPL,position collateral 31000.0 exceeds per-position cap
+2026-09-03T09:47:37.676303+00:00,SKIP,MSFT,position collateral 47500.0 exceeds per-position cap
+2026-09-03T09:47:39.106194+00:00,SKIP,SPY,position collateral 74400.0 exceeds per-position cap
+2026-09-03T09:47:40.580438+00:00,SKIP,QQQ,position collateral 67900.0 exceeds per-position cap
+2026-09-03T09:47:41.882441+00:00,SKIP,AMZN,position collateral 24000.0 exceeds per-position cap
+2026-09-03T09:47:41.882802+00:00,INFO,cycle_end,2026-09-03T09:47:41.882719+00:00
+2026-09-03T09:49:04.970091+00:00,INFO,cycle_start,2026-09-03T09:49:04.969840+00:00
+2026-09-03T09:49:06.992541+00:00,SKIP,F,could not fetch spot price
+2026-09-03T09:49:07.638663+00:00,SKIP,INTC,could not fetch spot price
+2026-09-03T09:49:08.319066+00:00,SKIP,T,could not fetch spot price
+2026-09-03T09:49:08.928190+00:00,SKIP,PFE,could not fetch spot price
+2026-09-03T09:49:09.575553+00:00,SKIP,SOFI,could not fetch spot price
+2026-09-03T09:49:09.576030+00:00,INFO,cycle_end,2026-09-03T09:49:09.575930+00:00
+2026-09-03T09:50:06.293356+00:00,INFO,cycle_start,2026-09-03T09:50:06.293156+00:00
+2026-09-03T09:50:09.628958+00:00,TRADE,AAPL,sold put AAPL261009P00310000 strike=310.0 delta=0.26
+2026-09-03T09:50:11.609663+00:00,TRADE,AMZN,sold put AMZN261016P00240000 strike=240.0 delta=0.24
+2026-09-03T09:50:13.608002+00:00,ERROR,cli_error,"alpaca order submit --symbol MSFT261009P00475000 --side sell --qty 1 --type limit --limit-price 5.25 --time-in-force day --client-order-id wheel-MSFT-1788429012 -> {'code': 40310000, 'error': 'insufficient options buying power for cash-secured put (required: 46820.01, available: 0)', 'hint': 'Forbidden. Check your permissions, account status, minimum order size, or feature availability.', 'method': 'POST', 'path': 'https://paper-api.alpaca.markets/v2/orders', 'request_id': 'ed034a4695008b9c49aa9b59b5976956', 'status': 403}"
+2026-09-03T09:50:13.608438+00:00,INFO,cycle_end,2026-09-03T09:50:13.608318+00:00
+2026-09-03T09:50:41.982643+00:00,INFO,cycle_start,2026-09-03T09:50:41.982372+00:00
+2026-09-03T09:50:45.218757+00:00,ERROR,cli_error,"alpaca order submit --symbol AAPL261009P00310000 --side sell --qty 1 --type limit --limit-price 4.14 --time-in-force day --client-order-id wheel-AAPL-1788429044 -> {'code': 40310000, 'error': 'insufficient options buying power for cash-secured put (required: 30565.01, available: 0)', 'hint': 'Forbidden. Check your permissions, account status, minimum order size, or feature availability.', 'method': 'POST', 'path': 'https://paper-api.alpaca.markets/v2/orders', 'request_id': '27ac4f5bd9de564ea8c79eef27647164', 'status': 403}"
+2026-09-03T09:50:47.068030+00:00,ERROR,cli_error,"alpaca order submit --symbol AMZN261016P00240000 --side sell --qty 1 --type limit --limit-price 4.12 --time-in-force day --client-order-id wheel-AMZN-1788429046 -> {'code': 40310000, 'error': 'insufficient options buying power for cash-secured put (required: 23570.01, available: 0)', 'hint': 'Forbidden. Check your permissions, account status, minimum order size, or feature availability.', 'method': 'POST', 'path': 'https://paper-api.alpaca.markets/v2/orders', 'request_id': 'cb47afb8701c0fc552522470d58d3536', 'status': 403}"
+2026-09-03T09:50:48.930489+00:00,ERROR,cli_error,"alpaca order submit --symbol MSFT261009P00475000 --side sell --qty 1 --type limit --limit-price 5.25 --time-in-force day --client-order-id wheel-MSFT-1788429048 -> {'code': 40310000, 'error': 'insufficient options buying power for cash-secured put (required: 46820.01, available: 0)', 'hint': 'Forbidden. Check your permissions, account status, minimum order size, or feature availability.', 'method': 'POST', 'path': 'https://paper-api.alpaca.markets/v2/orders', 'request_id': '117756a843add0ec1913c88986f81aa6', 'status': 403}"
+2026-09-03T09:50:48.930950+00:00,INFO,cycle_end,2026-09-03T09:50:48.930862+00:00
+2026-09-03T09:51:07.937706+00:00,INFO,cycle_start,2026-09-03T09:51:07.937481+00:00
+2026-09-03T09:51:09.972811+00:00,SKIP,AAPL,already has an open short-option order
+2026-09-03T09:51:09.973039+00:00,SKIP,AMZN,already has an open short-option order
+2026-09-03T09:51:11.206738+00:00,SKIP,MSFT,would exceed total deployed cap (102500 / 100000)
+2026-09-03T09:51:11.206888+00:00,INFO,cycle_end,2026-09-03T09:51:11.206835+00:00
+2026-09-03T09:51:39.510491+00:00,INFO,cycle_start,2026-09-03T09:51:39.510252+00:00
+2026-09-03T09:51:41.369916+00:00,SKIP,AAPL,already has an open short-option order
+2026-09-03T09:51:41.370173+00:00,SKIP,AMZN,already has an open short-option order
+2026-09-03T09:51:42.625275+00:00,SKIP,MSFT,would exceed total deployed cap (102500 / 100000)
+2026-09-03T09:51:42.625688+00:00,INFO,cycle_end,2026-09-03T09:51:42.625610+00:00

@@ -80,3 +80,8 @@ timestamp,level,action,detail
 2026-09-03T09:51:41.370173+00:00,SKIP,AMZN,already has an open short-option order
 2026-09-03T09:51:42.625275+00:00,SKIP,MSFT,would exceed total deployed cap (102500 / 100000)
 2026-09-03T09:51:42.625688+00:00,INFO,cycle_end,2026-09-03T09:51:42.625610+00:00
+2026-09-04T08:30:02.058009+00:00,INFO,cycle_start,2026-09-04T08:30:02.057432+00:00
+2026-09-04T08:30:06.712152+00:00,TRADE,AAPL,sold put AAPL261016P00310000 strike=310.0 delta=0.23
+2026-09-04T08:30:08.698090+00:00,ERROR,cli_error,"alpaca order submit --symbol AMZN261016P00245000 --side sell --qty 1 --type limit --limit-price 4.47 --time-in-force day --client-order-id wheel-AMZN-1788510608 -> {'code': 40310000, 'error': 'insufficient options buying power for cash-secured put (required: 24035.01, available: 7814.91)', 'hint': 'Forbidden. Check your permissions, account status, minimum order size, or feature availability.', 'method': 'POST', 'path': 'https://paper-api.alpaca.markets/v2/orders', 'request_id': '88f3f07df5c76423345e636d5ed403b2', 'status': 403}"
+2026-09-04T08:30:10.008902+00:00,SKIP,MSFT,would exceed total deployed cap (79840 / 100075)
+2026-09-04T08:30:10.009112+00:00,INFO,cycle_end,2026-09-04T08:30:10.009063+00:00

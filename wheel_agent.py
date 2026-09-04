@@ -19,6 +19,7 @@ BEFORE RUNNING:
     Anywhere you see a comment "VERIFY:", check that flag before trusting it.
 """
 
+import utils.session
 import json
 import subprocess
 import csv
